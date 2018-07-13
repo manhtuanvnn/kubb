@@ -1,0 +1,53 @@
+/*==style cơ bản cho website==*/
+* {
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body {
+		font-family: "Hevetica Neue"; Hevetica; Arial; san-serif;
+		font-weight: 300px;
+		line-height: 1.254;
+		color:#d9d9d9;
+	}
+#container {
+
+}
+#menu {
+	background-color: #262626;
+	font-color:#d9d9d9;
+	width: : 1600px;
+	height: : 100px;
+}
+#head-logo {
+	background-color: #262626;
+	font-color:#d9d9d9;
+	float: left;
+	width: : 900px;
+	height: 100px;
+	padding-left: 245px;
+}
+#head-logo ul {
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+}
+#head-logo ul li {
+	float:left;
+}
+#head-menu {
+	width: 
+	height: 100px;
+	padding: 42px 0;
+	font-weight: 
+}
+#head-menu ul {
+	list-style-type: none;
+	text-align: center;	
+	overflow: hidden;
+	}
+#head-menu ul li {
+	float:left;
+	width:100px;
+	
+}
