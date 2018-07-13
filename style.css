@@ -1,53 +1,50 @@
-/*==style cơ bản cho website==*/
 * {
 	box-sizing: border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 }
-body {
-		font-family: "Hevetica Neue"; Hevetica; Arial; san-serif;
-		font-weight: 300px;
-		line-height: 1.254;
-		color:#d9d9d9;
-	}
-#container {
+@font-face {
+    font-family: logofont;
+    src: url(fonts/ReklameScript-Regular_DEMO.otf);    
+}
+@font-face {
+	font-family: logomenu;
+    src: url(fonts/Lato-Black.ttf);
+}
+
+.header {
+	background: #262626;
+	height: 100px;	
+}
+.menu {
+	background:transparent;
+	margin-top: 25px;
 
 }
-#menu {
-	background-color: #262626;
-	font-color:#d9d9d9;
-	width: : 1600px;
-	height: : 100px;
+.header .menu .navbar-default {
+	background: #262626;
+	border: 0px;
+	font-color:#ffffff;
 }
-#head-logo {
-	background-color: #262626;
-	font-color:#d9d9d9;
-	float: left;
-	width: : 900px;
-	height: 100px;
-	padding-left: 245px;
+.logofont {
+	font-family: logofont;
+	font-size: 28px;
+	color:#b7b7b7;	
 }
-#head-logo ul {
-	list-style-type: none;
-	text-align: center;
-	overflow: hidden;
+.header .fontmenu li a {
+	font-family: logomenu;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#b7b7b7;
 }
-#head-logo ul li {
-	float:left;
+.header .fontmenu li a:hover {
+	color: #ff6760;
 }
-#head-menu {
-	width: 
-	height: 100px;
-	padding: 42px 0;
-	font-weight: 
+.banner {
+	background-color:black;
+	height: 400px;
+	color: #d9d9d9;
 }
-#head-menu ul {
-	list-style-type: none;
-	text-align: center;	
-	overflow: hidden;
-	}
-#head-menu ul li {
-	float:left;
-	width:100px;
-	
+.slider {
+	margin-top: 10em;
 }
